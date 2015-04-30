@@ -64,3 +64,36 @@ html, body {
   opacity: 0.7;
 }
 
+
+/*about me*/
+
+#about-me-section {
+  background-color: #F2F2F2;
+  z-index: 4;
+  overflow: hidden;
+}
+
+.section-header {
+  font-size: 4em;
+  color: #A1A1A1;
+  text-align:center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#about-me-header {
+  font-size: 3em;
+  margin-bottom: 25px;
+}
+
+#about-me-summary-text {
+  font-size: 1.4em;
+  margin-bottom: 25px;
+}
+
+#isul-kim-headshot-div {
+  margin-bottom: 100px;
+  height: 300px;
+  background: url(../imgs/ik2-head.png) no-repeat; 
+  background-size: 100% 100%;
+}
