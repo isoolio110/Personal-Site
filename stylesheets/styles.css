@@ -321,11 +321,11 @@ span.text-content {
     font-size: 3em;  
   }
   .text-overlay {
-    font-size: 18px;  
-    height: 260px; 
+    font-size: 20px;  
+    height: 300px; 
   }
   .portfolio-piece-img {
-    height: 260px;
+    height: 300px;
   }
   #about-me-section {
     text-align: left;
