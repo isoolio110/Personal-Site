@@ -27,3 +27,40 @@ html, body {
 .navbar .navbar-collapse {
   text-align: center;
 }
+
+
+/*Landing Page*/
+
+#landing-pg-header {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  text-align: center;
+}
+
+#landing-pg-subtitle {
+  position: absolute;
+  z-index:3;
+  color: white;
+  text-align: center;
+}
+
+#landing-pg-background {
+  z-index:2;
+  height: 650px;
+  width: 100%;
+  background: url(../imgs/HoodieAndLaptop.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 0px;
+}
+
+.img-overlay {
+  position: relative;
+  top: 0px;
+  height: 650px;
+  background: url(../imgs/BlackTransparent) no-repeat; 
+  background-size: 100% 100%; 
+  background: #000;
+  opacity: 0.7;
+}
+
