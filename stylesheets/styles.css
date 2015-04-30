@@ -97,3 +97,87 @@ html, body {
   background: url(../imgs/ik2-head.png) no-repeat; 
   background-size: 100% 100%;
 }
+
+
+/*portfolio*/
+
+#portfolio-section {
+  overflow: hidden;
+}
+
+.portfolio-piece-img {
+  display: table;
+  margin-bottom: 40px;  
+  z-index:2;
+  padding: 0px; 
+}
+
+#PerSee {
+  background: url(../imgs/PerSee.png);
+  background-size: 100% 100%;
+}
+
+#MusicMap {
+  background: url(../imgs/MusicMap.png);  
+  background-size: 100% 100%; 
+}
+
+#Globetrotters {
+  background: url(../imgs/Globetrotters.png);  
+  background-size: 100% 100%; 
+}
+
+#GlemurGames {
+  background: url(../imgs/GlemurGames.png);
+  background-size: 100% 100%;
+}
+
+.text-overlay {
+  opacity: 0;
+  background: url(../imgs/BlackTransparent.png);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: table-cell; 
+  vertical-align: middle;
+}
+
+.portfolio-piece-img:hover .text-overlay {
+  opacity: 1;
+}
+
+.portfolio-piece-img  a {
+  text-decoration: none;  
+}
+
+#portfolio-section {
+  background-color:white;
+}
+
+#technical-skills-list {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}
+
+
+/*get in touch*/
+
+#bottom-div {
+  background-color: #171717;
+  color: white;
+}
+
+#bottom-div-text {
+  margin-top: 50px;
+  margin-bottom: 50px;  
+}
+
+
+.get-in-touch-header {
+  font-size: 3em;
+}
+
+.get-in-touch-subtext {
+  font-size: 1.5em;
+}
