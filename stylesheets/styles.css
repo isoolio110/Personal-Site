@@ -181,3 +181,76 @@ html, body {
 .get-in-touch-subtext {
   font-size: 1.5em;
 }
+
+
+/*changing font color*/
+
+ul.img-list li {
+  display: inline-block;
+  width: 650px;
+  margin: 0 2em 2em 0;
+  position:relative;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+ 
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 374px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 650px;
+  opacity: 0;
+  padding: 30px;
+  font-size: 1.5em;
+  font-weight: 115;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.subtitle-highlight{
+    -webkit-animation: color-change 25s infinite;
+    -moz-animation: color-change 25s infinite;
+    -o-animation: color-change 25s infinite;
+    -ms-animation: color-change 25s infinite;
+    animation: color-change 25s infinite;
+}
+@-webkit-keyframes color-change {
+    0% { color: #7BE7ED; }
+    50% { color: #B7E80C; }
+    100% { color: #7BE7ED; }
+}
+@-moz-keyframes color-change {
+    0% { color: #7BE7ED; }
+    50% { color: #B7E80C; }
+    100% { color: #7BE7ED; }
+}
+@-ms-keyframes color-change {
+    0% { color: #7BE7ED; }
+    50% { color: #B7E80C; }
+    100% { color: #7BE7ED; }
+}
+@-o-keyframes color-change {
+    0% { color: #7BE7ED; }
+    50% { color: #B7E80C; }
+    100% { color: #7BE7ED; }
+}
+@keyframes color-change {
+    0% { color: #7BE7ED; }
+    50% { color: #B7E80C; }
+    100% { color: #7BE7ED; }
+}
