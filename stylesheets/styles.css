@@ -254,3 +254,87 @@ span.text-content {
     50% { color: #B7E80C; }
     100% { color: #7BE7ED; }
 }
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  #landing-pg-header {
+    font-size: 3em;    
+  }
+  #landing-pg-subtitle  {
+    font-size: 2em;  
+  }
+  .text-overlay {
+    font-size: 12px;  
+    height: 220px; 
+  }
+  .portfolio-piece-img {
+    height: 220px;
+  }
+  #about-me-section {
+    text-align: center;
+  } 
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  #landing-pg-header {
+    font-size: 4em;    
+  }
+  #landing-pg-subtitle  {
+    font-size: 2.2em;  
+  }
+  .text-overlay {
+    font-size: 14px;  
+    height: 220px; 
+  }
+  .portfolio-piece-img {
+    height: 220px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  #landing-pg-header {
+    font-size: 5em;    
+  }
+  #landing-pg-subtitle  {
+    font-size: 2.5em;  
+  }
+  .text-overlay {
+    font-size: 16px;  
+    height: 240px; 
+  }
+  .portfolio-piece-img {
+    height: 240px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  #landing-pg-header {
+    font-size: 5em;    
+  }
+  #landing-pg-subtitle  {
+    font-size: 3em;  
+  }
+  .text-overlay {
+    font-size: 18px;  
+    height: 260px; 
+  }
+  .portfolio-piece-img {
+    height: 260px;
+  }
+  #about-me-section {
+    text-align: left;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
