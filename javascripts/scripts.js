@@ -1,10 +1,11 @@
 $(function(){
-
-  $("#landing-pg-header").animate({ 
+  var landingPgHeader = $("#landing-pg-header")
+  var landingPgSubtitle =   $("#landing-pg-subtitle")
+  landingPgHeader.animate({ 
       top: "+=200px",
     }, 1000 );    
   
-  $("#landing-pg-subtitle").animate({
+  landingPgSubtitle.animate({
       top: "+=290px",
     }, 1400 );
 
