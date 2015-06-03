@@ -2,11 +2,11 @@ $(function(){
   var landingPgHeader = $("#landing-pg-header")
   var landingPgSubtitle =   $("#landing-pg-subtitle")
   landingPgHeader.animate({ 
-      top: "+=200px",
-    }, 1000 );    
+      top: "+=190px",
+    }, 1000 );   
   
   landingPgSubtitle.animate({
-      top: "+=290px",
+      top: "+=300px",
     }, 1400 );
 
   var width = $(".fade-in-left").width()  
